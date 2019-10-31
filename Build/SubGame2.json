@@ -1,9 +1,9 @@
 {
 "companyName": "DefaultCompany",
 "productName": "Sub",
-"dataUrl": "SubGame.data.unityweb",
-"wasmCodeUrl": "SubGame.wasm.code.unityweb",
-"wasmFrameworkUrl": "SubGame.wasm.framework.unityweb",
+"dataUrl": "SubGame2.data.unityweb",
+"wasmCodeUrl": "SubGame2.wasm.code.unityweb",
+"wasmFrameworkUrl": "SubGame2.wasm.framework.unityweb",
 "TOTAL_MEMORY": 268435456,
 "graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},

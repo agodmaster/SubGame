@@ -5,34 +5,36 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | Sub</title>
 	<style>
-		body{background-color: blue}
+		body{background-color:#cff}
 		.container{
-			width:90%;
+			width:90;
+			text-align:center;
 		}
 		.first-sentence{
-			font-weight: bold;
-			color: green;
-			text-align: center;
+			font-weight:bold;
+			color:#0f6;
 		}
 	</style>
 	<div class="container">
 		<p class="first-sentence"><h1>操作説明</h1></p>
-		<p class="first-centence">左右キーで回転、上キーで前進</P>
-		<p class="first-centence">スペースキーでジャンプ</P>
+		<p class="first-sentence">① 左右キーで回転</p>
+		<p class="first-sentence">② 上キーで前進</p>
+		<p class="first-sentence">③ スペースキーでジャンプ</p>
+	</div>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/SubGame.json", {onProgress: UnityProgress});
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/SubGame2.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
     <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <p><div id="gameContainer" style="width: 960px; height: 600px"></div></p>
       <div class="footer">
         <div class="webgl-logo"></div>
-        <p><div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div></p>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
         <div class="title">Sub</div>
       </div>
     </div>
